@@ -41,6 +41,33 @@ https://nces.ed.gov/ccd/pubschuniv.asp
 
 Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
 
+Name of the file used to clean the data-../code/education.ipynb
+1. Import pandas, numpy, matplotlib,seaborn
+2. Start by loading the each data sets-Edgap dataset & School_information data set
+3. Explore the contents of each dataframe using .head(), .info(), .shape()
+4. Make a pairplot to explore the relationships between the variables, add regression lines, plot single row that is required for analysis
+5. Select relevant subsets from the school_information dataframe like ['SCHOOL_YEAR','NCESSCH','LSTATE','LZIP','SCH_TYPE_TEXT','LEVEL','CHARTER_TEXT']
+6. Rename the column names of edgap and school_information dataset
+7. To ensure we have matching key values in both dataframe we set the 'id' column in school_information to object using .astype()
+8. Join the dataframe edgap and school_information using left join with 'id' as the key.
+9. Next is the quality control. We check for out of range values and set the values to NaN. set the percent_lunch <0  to Nan and average_act < 1 to NaN.
+10. Check the types, levels,and charter status of schools. Filter the school_levels to High(High Schools)
+11. Check for any duplicated rows.
+12. check for missing values & Calculate the percentage of missing values for each column.
+13. Check for the number of states present in the data.
+14. Drop the rows where the average ACT score is missing.
+15. Impute missing values of sociaeconomic variables.
+  - Define the predictor variables to be rate_unemployment, percent_college, percent_married,
+    median_income, percent_lunch, state, and charter.
+  - Use the iterative imputer to replace missing values in the columns corresponding
+    to predictor variables in the analysis
+  - Fit the imputer using imputer.fit()
+  - Impute the missing values in the training data
+16. Export the clean data set.
+
+Name of the cleaned file-../data/education_clean.csv
+
+
 ---
 
 ## Results

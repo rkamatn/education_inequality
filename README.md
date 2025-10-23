@@ -1,11 +1,10 @@
 # Project Title 
 
-Inequality in Education: Analyzing How Socioeconomic Conditions and Student–Teacher Ratios Affect Student Achievement
+Inequality in Education:Analyzing how socioeconomic conditions and Student–Teacher ratios affect student achievement
 
 ## Project Overview
 
-This project addresses inequality of educational opportunity in U.S. high schools. Here we will focus on average student performance on the ACT or SAT exams that students take as part of the college application process. The analysis also investigates whether schools with lower student–teacher ratios perform better on the ACT, even after controlling for socioeconomic factors such as household income and unemployment rates. 
-The findings reveal that not all socioeconomic variables show a strong correlation with average ACT performance.
+This project addresses inequality of educational opportunity in U.S. high schools. Here we will focus on average student performance on the ACT or SAT exams that students take as part of the college application process. The analysis also investigates whether schools with lower student–teacher ratios perform better on the ACT, even after controlling for socioeconomic factors such as household income and unemployment rates. The findings reveal that not all socioeconomic variables show a strong correlation with average ACT performance.
 
 ---
 
@@ -111,7 +110,9 @@ Name of the file used to clean the data-../code/exploratory_modeling.ipynb
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+This study looked at how family income, education level, unemployment and student–teacher ratio affect student achievement in U.S. high schools. The results show that economic factors, especially the percentage of students getting free lunch, have the biggest impact on ACT scores. Schools with higher household income, more college-educated parents, and lower unemployment rates usually have higher ACT scores.
+Although the student–teacher ratio was statistically important, it explained only a small part of the difference in scores. This means that community and family conditions affect student success more than classroom size does.
+
 
 ---
 

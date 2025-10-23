@@ -69,7 +69,7 @@ Name of the file used to clean the data-../code/education.ipynb
 12. check for missing values & Calculate the percentage of missing values for each column.
 13. Check for the number of states present in the data.
 14. Drop the rows where the average ACT score is missing.
-15. Impute missing values of sociaeconomic variables.
+15. Impute missing values of socioeconomic variables.
   - Define the predictor variables to be rate_unemployment, percent_college, percent_married,student_teacher_ratio,median_income, percent_lunch, state, and charter.
   - Use the iterative imputer to replace missing values in the columns corresponding
     to predictor variables in the analysis
@@ -87,9 +87,9 @@ Name of the file used to clean the data-../code/exploratory_modeling.ipynb
 2. Examine distributions and relationships,Plot the correlation matrix of the numerical variables in the training data to explore relationships between the variables.
 3. Identify outliers using Box plots.
 4. We start by taking only median income as the single input variable and access the relationship.
-5.Fit and assess models predicting the average ACT score from each of the input variables
-6.Fit the simple linear regression model
-7.Display the fit summary: check the sign and significance of the coefficients.
+5. Fit and assess models predicting the average ACT score from each of the input variables
+6. Fit the simple linear regression model
+7. Display the fit summary: check the sign and significance of the coefficients.
 8. Check Numerical assessment of fit accuracy by computing R-squared, Root mean squared error and mean absolute error
 9. We then use a residual plot for graphical assessment of model fit.
 10.We then try a quadratic model by plotting the regression curves and the scatter plot
